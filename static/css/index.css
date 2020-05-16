@@ -122,3 +122,81 @@ footer p{
 	margin-top: auto;
 	color: #fff;
 }
+
+.main-content{
+	background-color: #fff;
+	opacity: .9;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.main-section-home{
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 0;
+}
+
+.main-title{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.right-section{
+	background-color: blue;
+}
+
+.imagen img{
+	opacity: solid;
+	width: 300px;
+	height: 200px;
+	float: left;
+	background-color: blue;
+}
+
+.imagen{
+	margin:0 auto;
+	padding:0;
+	background-color: blue: 
+	width:300px;
+	height: auto;
+}
+
+.encabezado-imagen p{
+	float: left;
+}
+
+.encabezado{
+	width: 300px;
+	height: auto;
+}
+
+.title h4{
+	margin-top: 10px;
+}
+
+#picture{
+	background-color: blue;
+}
+
+#parrafo{
+	color: white;
+	align-content:center;
+}
+
+.contacto{
+	color: white;
+}
+
+/* Contact html style*/
+
+
+.contact-group{
+	padding: 0;
+	border-radius: 5px;
+}
+
+label{
+	float: left;
+	color: white;
+	margin-left: 10px;
+}
