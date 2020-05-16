@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="static/img/logo_size.jpg" class="icon-pestaña">
-	<title>Acerca de nosotros</title>
+	<title>Login</title>
 
 	<!--JQUERY-->
 		<script src="static/jquery/jquery-3.5.1.min.js"></script>
@@ -38,47 +38,25 @@
 	</div>
 <body>
 
-	<div class="container">
-		<div class="col-sm-12 main-section-home">
-			<div class="main-content">
-				<div class="align-self-center">
-					<div class="col-12">
-						<h1 class="font-weight-bold about-title">¿Quiénes somos?</h1>
-						<div class="container-fluid">
-							
-								<div class="row align-items-start">
-								  <div class="col-auto"> 
-								  	<div class="container">
-
-								  		<img src="static/img/logo_size.jpg" class="about-image">								  	
-								  	</div>
-								  </div>
-								  <div class="col">
-								  	<div class="container" id="parrafo-about">
-								  		<br>
-								  		<p>TecniData nace como un proyecto orientado a la prestación de servicios en el área de las tecnologías de la información (TIC). Nuestra guía son los clientes, preocupándonos día a día de entregar y asegurar la mejor calidad en nuestros servicios.</p>
-								  	</div>
-								  </div>
-								
-							</div>
-						</div>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-				</div>	
+	<div class="modal-dialog text-center">
+		<div class="col-sm-8 main-section">
+			<div class="modal-content">
+				<div class="col-12 user-img">
+					<img src="static/img/avatar.png">
 				</div>
-				
+				<form class="col-12">
+					<div class="form-group" id="user-group">
+						<input type="text" class="form-control" placeholder="Nombre de usuario" >
+					</div>
+					<div class="form-group" id="contrasena-group">
+						<input type="password" class="form-control" placeholder="Contraseña">
+					</div>
+					<button type="submit" class="btn btn-primary"><img src="static/img/sign-in-alt-solid.svg" style="width: 22px;height: 37px;">  Ingresar</button>
+				</form>
+				<div class="col-12 forgot"><a href="">He olvidado mi contraseña</a>
+				</div>
 			</div>
-			
 		</div>
-		
 	</div>
 
 	<!--footer-->
