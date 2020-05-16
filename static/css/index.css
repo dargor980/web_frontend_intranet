@@ -207,3 +207,18 @@ label{
 	color: white;
 	margin-left: 10px;
 }
+
+/*about.html style */
+
+.about-title{
+	padding: 30px 30px;
+	text-align: center;
+	flex: all;
+}
+
+.about-image img{
+	border-radius: 50%;
+	border: 5px 5px; 
+	box-shadow:#000;
+}
+
