@@ -19,7 +19,13 @@ header h1
 {
 	text-align: center;
 	padding-top: 15px;
+	margin-bottom: 0;
+	border-bottom: 0;
 	position: relative;
+}
+
+.subtitle{
+	padding-left: 20px;
 }
 
 li a:hover{
@@ -102,6 +108,7 @@ a{
 button{
 	width: 60%;
 	margin: 5px 0 25px;
+	margin-top: 10px;
 }
 
 .forgot{
@@ -125,7 +132,6 @@ footer p{
 
 .main-content{
 	background-color: #fff;
-	opacity: .9;
 	border-radius: 10px;
 	margin: 0 auto;
 }
@@ -181,6 +187,7 @@ footer p{
 #parrafo{
 	color: white;
 	align-content:center;
+	font-style: Verdana;
 }
 
 .contacto{
