@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/panel.css">
+    <link rel="stylesheet" href="static/css/mailbox.css">
     <script src="static/jquery/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -18,15 +18,15 @@
     <div class="d-flex" id="wrapper" class="toggled">
 
         <!-- Sidebar -->
-        <div class="bg-primary border-right" id="sidebar-wrapper">
-          <div class="sidebar-heading text-light">Tecnidata | Panel administrativo </div>
+        <div class="bg-dark border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading bg-dark text-light">Tecnidata | Panel administrativo </div>
           <div class="list-group list-group-flush">
-            <a href="mailbox.php" class="list-group-item list-group-item-action bg-primary text-light"><img src="static/img/email.svg" style="width: 22px;height: 37px;"> Correo</a>
-            <a href="#" class="list-group-item list-group-item-action bg-primary text-light">Estado</a>
-            <a href="#" class="list-group-item list-group-item-action bg-primary text-light">Tickets</a>
-            <a href="#" class="list-group-item list-group-item-action bg-primary text-light">Events</a>
-            <a href="#" class="list-group-item list-group-item-action bg-primary text-light">Profile</a>
-            <a href="#" class="list-group-item list-group-item-action bg-primary text-light">Status</a>
+            <a href="mailbox.php" class="list-group-item list-group-item-action bg-dark text-light"><img src="static/img/email.svg" style="width: 22px;height: 37px;"> Correo</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Estado</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Tickets</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Events</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Profile</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Status</a>
           </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -34,7 +34,7 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
     
-          <nav class="navbar navbar-expand-lg navbar-primary bg-primary border-bottom">
+          <nav class="navbar navbar-expand-lg navbar-primary bg-dark border-bottom">
             <button class="btn btn-primary bg-secondary" id="menu-toggle"> <img src="static/img/layout.svg" style="width: 15px; height: 30px;"> </button>
     
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
                   <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Usuario
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right bg-primary" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
                     <a class="dropdown-item text-light" href="#">Action</a>
                     <a class="dropdown-item text-light" href="#">Another action</a>
                     <div class="dropdown-divider"></div>
@@ -66,24 +66,24 @@
     
           <div class="container-fluid">
             <h1 class="mt-4">
-                <?php
+            <?php
                     if(isset($_SESSION['email'])){
-                        echo "Bienvenido " . $_SESSION['email'];
+                        echo "Bandeja de entrada";
                     }
                     else{
                       header("Location: index.html");
                     }
                    
                 ?>
-
-
+                
             </h1>
-            <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+            <div class="container">
+              aaaaaaaaaaaaaaaaaaaa
+            </div>
           </div>
         </div>
         <!-- /#page-content-wrapper -->
-    
+      
       </div>
       <script>
         $("#menu-toggle").click(function(e) {

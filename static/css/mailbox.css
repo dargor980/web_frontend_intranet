@@ -25,13 +25,13 @@
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
-    background-color: blue;
+    background-color: #292b2c;
   }
   
   #sidebar-wrapper .sidebar-heading {
     padding: 0.875rem 1.25rem;
     font-size: 1.2rem;
-    background-color: blue;
+    background-color: #292b2c;
   }
   
   #sidebar-wrapper .list-group {
@@ -41,18 +41,18 @@
   
   #page-content-wrapper {
     min-width: 100vw;
-    background-image: url(../img/background.jpg);
+    background-color: #241461;
   }
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
-    background-color: blue;
+    background-color: #292b2c;
   }
   
   @media (min-width: 768px) {
     #sidebar-wrapper {
       margin-left: 0;
-      background-color: blue;
+      background-color: #292b2c;
     }
    
     #page-content-wrapper {
@@ -64,5 +64,12 @@
       margin-left: -15rem;
     }
   }
-  
+
+  h1{
+    color: white;
+  }
+
+  .bg-primary{
+    background-color: black;
+  }
  
